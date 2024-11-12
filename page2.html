@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+ <title>Midshire Heritage Railway</title>
+
+    <style>
+
+        header {
+            background-color: #606c38;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #464e29;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        
+        form {
+            background-color: #424242;
+            border-radius: 5px;
+            padding: 40px;
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="address"],
+        textarea {
+            width: 100%; 
+            padding: 10px;
+            border: 1px solid #B0BEC5;
+            border-radius: 5px;
+            background-color: #333; 
+            color: #E0E0E0; 
+        }
+        input[type="submit"] {
+            background-color: #ffffff; 
+            color: #121212; 
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #FFC107;
+        }
+
+    </style>
+</head>
+
+<style> 
+    html { 
+      background: url(pexels-jplenio-3437116.jpg) no-repeat center fixed; 
+      background-size: cover;
+    }
+    
+    body { 
+      color: white; 
+    }
+</style>
+
+<header>
+    <h1>JOB APPLICATION</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="page1.html">staff</a>
+  <a href="page2.html">calendar</a>
+  <a href="page3.html">job application</a>
+</nav>
+
+<div class="container">
+    <h2>Apply for a Job</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Address">Address:</label>
+        <input type="Address" id="Address" name="Address" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="position">Position Applying For:</label>
+        <input type="text" id="position" name="position" drop required>
+
+        <label for="message">Achievements:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</div>
+</body>
+</html>
